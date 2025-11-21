@@ -1,0 +1,392 @@
+2025-11-21T08:02:34+00:00 DEBUG Stripe API request: GET payment_method_configurations?limit=100 CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1"}
+2025-11-21T08:02:35+00:00 DEBUG Stripe API response: GET payment_method_configurations?limit=100 CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1","stripe_request_id":"req_SKsjzmOqltqvgl","response":{"object":"list","data":[{"id":"pmc_1SVpBdLAubgjStJ9GehLgddd","object":"payment_method_configuration","acss_debit":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"active":true,"affirm":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"afterpay_clearpay":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"alipay":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"amazon_pay":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"apple_pay":{"available":true,"display_preference":{"overridable":true,"preference":"on","value":"on"}},"application":"ca_BC3QunyBFJIQULdxege9Gyg8WjKI1vXD","bacs_debit":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"bancontact":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"blik":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"card":{"available":true,"display_preference":{"overridable":true,"preference":"on","value":"on"}},"cartes_bancaires":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"cashapp":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"crypto":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"customer_balance":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"eps":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"giropay":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"google_pay":{"available":true,"display_preference":{"overridable":true,"preference":"on","value":"on"}},"ideal":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"is_default":true,"kakao_pay":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"klarna":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"kr_card":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"link":{"available":true,"display_preference":{"overridable":true,"preference":"on","value":"on"}},"livemode":false,"mb_way":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"multibanco":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"name":"Default","naver_pay":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"p24":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"parent":"pmc_1LEKjBGX8lmJQndTBOzjqxSa","payco":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"pix":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"samsung_pay":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"sepa_debit":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"sofort":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"us_bank_account":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"wechat_pay":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"zip":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}}},{"id":"pmc_1SVpBdLAubgjStJ9T0igG56g","object":"payment_method_configuration","acss_debit":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"active":true,"affirm":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"afterpay_clearpay":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"alipay":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"amazon_pay":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"apple_pay":{"available":true,"display_preference":{"overridable":null,"preference":"on","value":"on"}},"application":null,"bacs_debit":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"bancontact":{"available":true,"display_preference":{"overridable":null,"preference":"on","value":"on"}},"blik":{"available":true,"display_preference":{"overridable":null,"preference":"on","value":"on"}},"card":{"available":true,"display_preference":{"overridable":null,"preference":"on","value":"on"}},"cartes_bancaires":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"cashapp":{"available":true,"display_preference":{"overridable":null,"preference":"on","value":"on"}},"crypto":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"customer_balance":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"eps":{"available":true,"display_preference":{"overridable":null,"preference":"on","value":"on"}},"giropay":{"available":true,"display_preference":{"overridable":null,"preference":"on","value":"on"}},"google_pay":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"ideal":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"is_default":true,"kakao_pay":{"available":true,"display_preference":{"overridable":null,"preference":"on","value":"on"}},"klarna":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"kr_card":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"link":{"available":true,"display_preference":{"overridable":null,"preference":"on","value":"on"}},"livemode":false,"mb_way":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"multibanco":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"name":"Default","naver_pay":{"available":true,"display_preference":{"overridable":null,"preference":"on","value":"on"}},"p24":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"parent":null,"payco":{"available":true,"display_preference":{"overridable":null,"preference":"on","value":"on"}},"pix":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"samsung_pay":{"available":true,"display_preference":{"overridable":null,"preference":"on","value":"on"}},"sepa_debit":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"sofort":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"us_bank_account":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"wechat_pay":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"zip":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}}}],"has_more":false,"url":"/v1/payment_method_configurations"}}
+2025-11-21T08:08:25+00:00 DEBUG Stripe API request: GET payment_methods/pm_1SVpOGLAubgjStJ93FnNy33s CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1"}
+2025-11-21T08:08:25+00:00 DEBUG Stripe API response: GET payment_methods/pm_1SVpOGLAubgjStJ93FnNy33s CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1","stripe_request_id":"req_Jlo8FZdZZ292rI","response":{"id":"pm_1SVpOGLAubgjStJ93FnNy33s","object":"payment_method","allow_redisplay":"unspecified","billing_details":{"address":{"city":"cairo","country":"TN","line1":"nasr street","line2":"","postal_code":"1177","state":"cairo"},"email":"shehab200088111@gmail.com","name":"shehab ahmed","phone":"01023323888","tax_id":null},"card":{"brand":"visa","checks":{"address_line1_check":"unchecked","address_postal_code_check":"unchecked","cvc_check":"unchecked"},"country":"US","display_brand":"visa","exp_month":12,"exp_year":2029,"fingerprint":"MIWqR4mqZ3SOrQyf","funding":"credit","generated_from":null,"last4":"4242","networks":{"available":["visa"],"preferred":null},"regulated_status":"unregulated","three_d_secure_usage":{"supported":true},"wallet":null},"created":1763712504,"customer":null,"livemode":false,"metadata":{},"radar_options":{},"type":"card"}}
+2025-11-21T08:08:25+00:00 DEBUG Stripe API request: POST customers CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1","request":{"email":"shehab200088111@gmail.com","description":"Name: shehab ahmed, Username: shehab","name":"shehab ahmed","metadata":[],"preferred_locales":["en-US"],"address":{"line1":"nasr street","line2":"","postal_code":"1177","city":"cairo","state":"cairo","country":"TN"},"order":{"refunds":[],"customer_id":null}}}
+2025-11-21T08:08:26+00:00 DEBUG Stripe API response: POST customers CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1","stripe_request_id":"req_Rh6JxzdcDSt2qz","response":{"id":"cus_TSkuoMM7ukxSS6","object":"customer","address":{"city":"cairo","country":"TN","line1":"nasr street","line2":"","postal_code":"1177","state":"cairo"},"balance":0,"created":1763712506,"currency":null,"default_source":null,"delinquent":false,"description":"Name: shehab ahmed, Username: shehab","discount":null,"email":"shehab200088111@gmail.com","invoice_prefix":"NHF6AATF","invoice_settings":{"custom_fields":null,"default_payment_method":null,"footer":null,"rendering_options":null},"livemode":false,"metadata":{},"name":"shehab ahmed","next_invoice_sequence":1,"phone":null,"preferred_locales":["en-US"],"shipping":null,"tax_exempt":"none","test_clock":null}}
+2025-11-21T08:08:26+00:00 DEBUG Stripe API request: GET payment_methods/pm_1SVpOGLAubgjStJ93FnNy33s CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1"}
+2025-11-21T08:08:27+00:00 DEBUG Stripe API response: GET payment_methods/pm_1SVpOGLAubgjStJ93FnNy33s CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1","stripe_request_id":"req_WZ76Wsbs3Tt0M6","response":{"id":"pm_1SVpOGLAubgjStJ93FnNy33s","object":"payment_method","allow_redisplay":"unspecified","billing_details":{"address":{"city":"cairo","country":"TN","line1":"nasr street","line2":"","postal_code":"1177","state":"cairo"},"email":"shehab200088111@gmail.com","name":"shehab ahmed","phone":"01023323888","tax_id":null},"card":{"brand":"visa","checks":{"address_line1_check":"unchecked","address_postal_code_check":"unchecked","cvc_check":"unchecked"},"country":"US","display_brand":"visa","exp_month":12,"exp_year":2029,"fingerprint":"MIWqR4mqZ3SOrQyf","funding":"credit","generated_from":null,"last4":"4242","networks":{"available":["visa"],"preferred":null},"regulated_status":"unregulated","three_d_secure_usage":{"supported":true},"wallet":null},"created":1763712504,"customer":null,"livemode":false,"metadata":{},"radar_options":{},"type":"card"}}
+2025-11-21T08:08:27+00:00 DEBUG Stripe API request: POST payment_intents CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1","request":{"shipping":{"name":"shehab ahmed","address":{"line1":"nasr street","line2":"","city":"cairo","country":"TN","postal_code":"1177","state":"cairo"}},"payment_method":"pm_1SVpOGLAubgjStJ93FnNy33s","capture_method":"automatic","mandate_data":{"customer_acceptance":{"type":"online","online":{"ip_address":"::1","user_agent":"WooCommerce Stripe Gateway10.1.0; http://localhost"}}},"amount":1200000,"confirm":"true","currency":"egp","customer":"cus_TSkuoMM7ukxSS6","description":"shehab - Order 153","metadata":{"customer_name":"shehab ahmed","customer_email":"shehab200088111@gmail.com","site_url":"http://localhost","order_id":"153","order_key":"wc_order_zSWkNIPgJ0VRy","payment_type":"single","signature":"153:11fd88cee19ad23f5767bc4db9a29180","tax_amount":0,"is_legacy_checkout_enabled":"no","is_oc_enabled":"no","pmc_enabled":"yes"},"payment_method_types":["card","link"]}}
+2025-11-21T08:08:28+00:00 DEBUG Stripe API response: POST payment_intents CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1","stripe_request_id":"req_nTugq3VUM1X8i4","response":{"id":"pi_3SVpOJLAubgjStJ91oeyg1g2","object":"payment_intent","amount":1200000,"amount_capturable":0,"amount_details":{"tip":{}},"amount_received":1200000,"application":"ca_BC3QunyBFJIQULdxege9Gyg8WjKI1vXD","application_fee_amount":null,"automatic_payment_methods":null,"canceled_at":null,"cancellation_reason":null,"capture_method":"automatic","client_secret":"pi_3SVpOJLAubgjStJ91oeyg1g2_secret_Sc9mWuTIsaRi51IdkEPxBei0p","confirmation_method":"automatic","created":1763712507,"currency":"egp","customer":"cus_TSkuoMM7ukxSS6","description":"shehab - Order 153","excluded_payment_method_types":null,"invoice":null,"last_payment_error":null,"latest_charge":"ch_3SVpOJLAubgjStJ91BWxl9Nh","level3":null,"livemode":false,"metadata":{"customer_email":"shehab200088111@gmail.com","customer_name":"shehab ahmed","is_legacy_checkout_enabled":"no","is_oc_enabled":"no","order_id":"153","order_key":"wc_order_zSWkNIPgJ0VRy","payment_type":"single","pmc_enabled":"yes","signature":"153:11fd88cee19ad23f5767bc4db9a29180","site_url":"http://localhost","tax_amount":"0"},"next_action":null,"on_behalf_of":null,"payment_method":"pm_1SVpOGLAubgjStJ93FnNy33s","payment_method_configuration_details":null,"payment_method_options":{"card":{"installments":null,"mandate_options":null,"network":null,"request_three_d_secure":"automatic"},"link":{"persistent_token":null}},"payment_method_types":["card","link"],"processing":null,"receipt_email":null,"review":null,"setup_future_usage":null,"shipping":{"address":{"city":"cairo","country":"TN","line1":"nasr street","line2":"","postal_code":"1177","state":"cairo"},"carrier":null,"name":"shehab ahmed","phone":null,"tracking_number":null},"source":null,"statement_descriptor":null,"statement_descriptor_suffix":null,"status":"succeeded","transfer_data":null,"transfer_group":null}}
+2025-11-21T08:08:28+00:00 DEBUG Stripe API request: GET charges/ch_3SVpOJLAubgjStJ91BWxl9Nh CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1","request":[]}
+2025-11-21T08:08:29+00:00 DEBUG Stripe API response: GET charges/ch_3SVpOJLAubgjStJ91BWxl9Nh CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1","stripe_request_id":"req_ROjVCUJo5diUXp","response":{"id":"ch_3SVpOJLAubgjStJ91BWxl9Nh","object":"charge","amount":1200000,"amount_captured":1200000,"amount_refunded":0,"application":"ca_BC3QunyBFJIQULdxege9Gyg8WjKI1vXD","application_fee":null,"application_fee_amount":null,"balance_transaction":"txn_3SVpOJLAubgjStJ91IVEJvTR","billing_details":{"address":{"city":"cairo","country":"TN","line1":"nasr street","line2":"","postal_code":"1177","state":"cairo"},"email":"shehab200088111@gmail.com","name":"shehab ahmed","phone":"01023323888","tax_id":null},"calculated_statement_descriptor":"WOOCOMMERCE","captured":true,"created":1763712507,"currency":"egp","customer":"cus_TSkuoMM7ukxSS6","description":"shehab - Order 153","destination":null,"dispute":null,"disputed":false,"failure_balance_transaction":null,"failure_code":null,"failure_message":null,"fraud_details":{},"invoice":null,"livemode":false,"metadata":{"customer_email":"shehab200088111@gmail.com","customer_name":"shehab ahmed","is_legacy_checkout_enabled":"no","is_oc_enabled":"no","order_id":"153","order_key":"wc_order_zSWkNIPgJ0VRy","payment_type":"single","pmc_enabled":"yes","signature":"153:11fd88cee19ad23f5767bc4db9a29180","site_url":"http://localhost","tax_amount":"0"},"on_behalf_of":null,"order":null,"outcome":{"advice_code":null,"network_advice_code":null,"network_decline_code":null,"network_status":"approved_by_network","reason":null,"risk_level":"normal","risk_score":48,"seller_message":"Payment complete.","type":"authorized"},"paid":true,"payment_intent":"pi_3SVpOJLAubgjStJ91oeyg1g2","payment_method":"pm_1SVpOGLAubgjStJ93FnNy33s","payment_method_details":{"card":{"amount_authorized":1200000,"authorization_code":"544087","brand":"visa","checks":{"address_line1_check":"pass","address_postal_code_check":"pass","cvc_check":"pass"},"country":"US","exp_month":12,"exp_year":2029,"extended_authorization":{"status":"disabled"},"fingerprint":"MIWqR4mqZ3SOrQyf","funding":"credit","incremental_authorization":{"status":"unavailable"},"installments":null,"last4":"4242","mandate":null,"multicapture":{"status":"unavailable"},"network":"visa","network_token":{"used":false},"network_transaction_id":"996811466111856","overcapture":{"maximum_amount_capturable":1200000,"status":"unavailable"},"regulated_status":"unregulated","three_d_secure":null,"wallet":null},"type":"card"},"radar_options":{},"receipt_email":null,"receipt_number":null,"receipt_url":"https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xU1ZwQlhMQXViZ2pTdEo5KP27gMkGMgb99RLJxq46LBZLxNsA7PMbkC83v2gr2-8g7XSkA4iHiT5WlxHaOxCk91_BBwmeEzO6HFDG","refunded":false,"review":null,"shipping":{"address":{"city":"cairo","country":"TN","line1":"nasr street","line2":"","postal_code":"1177","state":"cairo"},"carrier":null,"name":"shehab ahmed","phone":null,"tracking_number":null},"source":null,"source_transfer":null,"statement_descriptor":null,"statement_descriptor_suffix":null,"status":"succeeded","transfer_data":null,"transfer_group":null}}
+2025-11-21T08:08:29+00:00 DEBUG Stripe API request: GET charges/ch_3SVpOJLAubgjStJ91BWxl9Nh CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1","request":[]}
+2025-11-21T08:08:29+00:00 DEBUG Stripe API response: GET charges/ch_3SVpOJLAubgjStJ91BWxl9Nh CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1","stripe_request_id":"req_HK1HiF4BvkIDpX","response":{"id":"ch_3SVpOJLAubgjStJ91BWxl9Nh","object":"charge","amount":1200000,"amount_captured":1200000,"amount_refunded":0,"application":"ca_BC3QunyBFJIQULdxege9Gyg8WjKI1vXD","application_fee":null,"application_fee_amount":null,"balance_transaction":"txn_3SVpOJLAubgjStJ91IVEJvTR","billing_details":{"address":{"city":"cairo","country":"TN","line1":"nasr street","line2":"","postal_code":"1177","state":"cairo"},"email":"shehab200088111@gmail.com","name":"shehab ahmed","phone":"01023323888","tax_id":null},"calculated_statement_descriptor":"WOOCOMMERCE","captured":true,"created":1763712507,"currency":"egp","customer":"cus_TSkuoMM7ukxSS6","description":"shehab - Order 153","destination":null,"dispute":null,"disputed":false,"failure_balance_transaction":null,"failure_code":null,"failure_message":null,"fraud_details":{},"invoice":null,"livemode":false,"metadata":{"customer_email":"shehab200088111@gmail.com","customer_name":"shehab ahmed","is_legacy_checkout_enabled":"no","is_oc_enabled":"no","order_id":"153","order_key":"wc_order_zSWkNIPgJ0VRy","payment_type":"single","pmc_enabled":"yes","signature":"153:11fd88cee19ad23f5767bc4db9a29180","site_url":"http://localhost","tax_amount":"0"},"on_behalf_of":null,"order":null,"outcome":{"advice_code":null,"network_advice_code":null,"network_decline_code":null,"network_status":"approved_by_network","reason":null,"risk_level":"normal","risk_score":48,"seller_message":"Payment complete.","type":"authorized"},"paid":true,"payment_intent":"pi_3SVpOJLAubgjStJ91oeyg1g2","payment_method":"pm_1SVpOGLAubgjStJ93FnNy33s","payment_method_details":{"card":{"amount_authorized":1200000,"authorization_code":"544087","brand":"visa","checks":{"address_line1_check":"pass","address_postal_code_check":"pass","cvc_check":"pass"},"country":"US","exp_month":12,"exp_year":2029,"extended_authorization":{"status":"disabled"},"fingerprint":"MIWqR4mqZ3SOrQyf","funding":"credit","incremental_authorization":{"status":"unavailable"},"installments":null,"last4":"4242","mandate":null,"multicapture":{"status":"unavailable"},"network":"visa","network_token":{"used":false},"network_transaction_id":"996811466111856","overcapture":{"maximum_amount_capturable":1200000,"status":"unavailable"},"regulated_status":"unregulated","three_d_secure":null,"wallet":null},"type":"card"},"radar_options":{},"receipt_email":null,"receipt_number":null,"receipt_url":"https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xU1ZwQlhMQXViZ2pTdEo5KP27gMkGMgbeqsy2ivY6LBZg-LgnUXfVqiUufXVTauCXSqJoIj2oOQtPquxVnVpVSCVPXZ5ZI_7xZ3Eb","refunded":false,"review":null,"shipping":{"address":{"city":"cairo","country":"TN","line1":"nasr street","line2":"","postal_code":"1177","state":"cairo"},"carrier":null,"name":"shehab ahmed","phone":null,"tracking_number":null},"source":null,"source_transfer":null,"statement_descriptor":null,"statement_descriptor_suffix":null,"status":"succeeded","transfer_data":null,"transfer_group":null}}
+2025-11-21T08:08:29+00:00 DEBUG 
+====Stripe Version: 10.1.0====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3SVpOJLAubgjStJ91BWxl9Nh
+    [object] => charge
+    [amount] => 1200000
+    [amount_captured] => 1200000
+    [amount_refunded] => 0
+    [application] => ca_BC3QunyBFJIQULdxege9Gyg8WjKI1vXD
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3SVpOJLAubgjStJ91IVEJvTR
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => cairo
+                    [country] => TN
+                    [line1] => nasr street
+                    [line2] => 
+                    [postal_code] => 1177
+                    [state] => cairo
+                )
+
+            [email] => shehab200088111@gmail.com
+            [name] => shehab ahmed
+            [phone] => 01023323888
+            [tax_id] => 
+        )
+
+    [calculated_statement_descriptor] => WOOCOMMERCE
+    [captured] => 1
+    [created] => 1763712507
+    [currency] => egp
+    [customer] => cus_TSkuoMM7ukxSS6
+    [description] => shehab - Order 153
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_email] => shehab200088111@gmail.com
+            [customer_name] => shehab ahmed
+            [is_legacy_checkout_enabled] => no
+            [is_oc_enabled] => no
+            [order_id] => 153
+            [order_key] => wc_order_zSWkNIPgJ0VRy
+            [payment_type] => single
+            [pmc_enabled] => yes
+            [signature] => 153:11fd88cee19ad23f5767bc4db9a29180
+            [site_url] => http://localhost
+            [tax_amount] => 0
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [advice_code] => 
+            [network_advice_code] => 
+            [network_decline_code] => 
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 48
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3SVpOJLAubgjStJ91oeyg1g2
+    [payment_method] => pm_1SVpOGLAubgjStJ93FnNy33s
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [amount_authorized] => 1200000
+                    [authorization_code] => 544087
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 12
+                    [exp_year] => 2029
+                    [extended_authorization] => stdClass Object
+                        (
+                            [status] => disabled
+                        )
+
+                    [fingerprint] => MIWqR4mqZ3SOrQyf
+                    [funding] => credit
+                    [incremental_authorization] => stdClass Object
+                        (
+                            [status] => unavailable
+                        )
+
+                    [installments] => 
+                    [last4] => 4242
+                    [mandate] => 
+                    [multicapture] => stdClass Object
+                        (
+                            [status] => unavailable
+                        )
+
+                    [network] => visa
+                    [network_token] => stdClass Object
+                        (
+                            [used] => 
+                        )
+
+                    [network_transaction_id] => 996811466111856
+                    [overcapture] => stdClass Object
+                        (
+                            [maximum_amount_capturable] => 1200000
+                            [status] => unavailable
+                        )
+
+                    [regulated_status] => unregulated
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [radar_options] => stdClass Object
+        (
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xU1ZwQlhMQXViZ2pTdEo5KP27gMkGMgbeqsy2ivY6LBZg-LgnUXfVqiUufXVTauCXSqJoIj2oOQtPquxVnVpVSCVPXZ5ZI_7xZ3Eb
+    [refunded] => 
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => cairo
+                    [country] => TN
+                    [line1] => nasr street
+                    [line2] => 
+                    [postal_code] => 1177
+                    [state] => cairo
+                )
+
+            [carrier] => 
+            [name] => shehab ahmed
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => 
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+2025-11-21T08:08:29+00:00 DEBUG Stripe API request: GET balance/history/txn_3SVpOJLAubgjStJ91IVEJvTR CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1"}
+2025-11-21T08:08:30+00:00 DEBUG Stripe API response: GET balance/history/txn_3SVpOJLAubgjStJ91IVEJvTR CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1","stripe_request_id":"req_bZ0feU0TqOmJk4","response":{"id":"txn_3SVpOJLAubgjStJ91IVEJvTR","object":"balance_transaction","amount":25036,"available_on":1764288000,"balance_type":"payments","created":1763712507,"currency":"usd","description":"shehab - Order 153","exchange_rate":0.0208634,"fee":756,"fee_details":[{"amount":756,"application":null,"currency":"usd","description":"Stripe processing fees","type":"stripe_fee"}],"net":24280,"reporting_category":"charge","source":"ch_3SVpOJLAubgjStJ91BWxl9Nh","status":"pending","type":"charge"}}
+2025-11-21T08:08:34+00:00 DEBUG Stripe API request: GET payment_methods?expand[]=data.sepa_debit.generated_from.charge&expand[]=data.sepa_debit.generated_from.setup_attempt CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1","request":{"customer":"cus_TSkuoMM7ukxSS6","limit":100}}
+2025-11-21T08:08:34+00:00 DEBUG Stripe API response: GET payment_methods?expand[]=data.sepa_debit.generated_from.charge&expand[]=data.sepa_debit.generated_from.setup_attempt CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1","stripe_request_id":"req_lQpz8EunEGAs90","response":{"object":"list","data":[],"has_more":false,"url":"/v1/payment_methods"}}
+2025-11-21T08:10:18+00:00 DEBUG Stripe API request: GET payment_methods/pm_1SVpQ5LAubgjStJ9VmbZNvm2 CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1"}
+2025-11-21T08:10:18+00:00 DEBUG Stripe API response: GET payment_methods/pm_1SVpQ5LAubgjStJ9VmbZNvm2 CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1","stripe_request_id":"req_kQxQ3g5DSTmewz","response":{"id":"pm_1SVpQ5LAubgjStJ9VmbZNvm2","object":"payment_method","allow_redisplay":"unspecified","billing_details":{"address":{"city":"cairo","country":"TN","line1":"nasr street","line2":"","postal_code":"1177","state":"cairo"},"email":"shehab200088111@gmail.com","name":"shehab ahmed","phone":"01023323888","tax_id":null},"card":{"brand":"visa","checks":{"address_line1_check":"unchecked","address_postal_code_check":"unchecked","cvc_check":"unchecked"},"country":"US","display_brand":"visa","exp_month":12,"exp_year":2029,"fingerprint":"MIWqR4mqZ3SOrQyf","funding":"credit","generated_from":null,"last4":"4242","networks":{"available":["visa"],"preferred":null},"regulated_status":"unregulated","three_d_secure_usage":{"supported":true},"wallet":null},"created":1763712617,"customer":null,"livemode":false,"metadata":{},"radar_options":{},"type":"card"}}
+2025-11-21T08:10:19+00:00 DEBUG Stripe API request: GET payment_methods/pm_1SVpQ5LAubgjStJ9VmbZNvm2 CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1"}
+2025-11-21T08:10:19+00:00 DEBUG Stripe API response: GET payment_methods/pm_1SVpQ5LAubgjStJ9VmbZNvm2 CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1","stripe_request_id":"req_YFkN5ZCQ0pcwqp","response":{"id":"pm_1SVpQ5LAubgjStJ9VmbZNvm2","object":"payment_method","allow_redisplay":"unspecified","billing_details":{"address":{"city":"cairo","country":"TN","line1":"nasr street","line2":"","postal_code":"1177","state":"cairo"},"email":"shehab200088111@gmail.com","name":"shehab ahmed","phone":"01023323888","tax_id":null},"card":{"brand":"visa","checks":{"address_line1_check":"unchecked","address_postal_code_check":"unchecked","cvc_check":"unchecked"},"country":"US","display_brand":"visa","exp_month":12,"exp_year":2029,"fingerprint":"MIWqR4mqZ3SOrQyf","funding":"credit","generated_from":null,"last4":"4242","networks":{"available":["visa"],"preferred":null},"regulated_status":"unregulated","three_d_secure_usage":{"supported":true},"wallet":null},"created":1763712617,"customer":null,"livemode":false,"metadata":{},"radar_options":{},"type":"card"}}
+2025-11-21T08:10:19+00:00 DEBUG Stripe API request: POST payment_intents CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1","request":{"shipping":{"name":"shehab ahmed","address":{"line1":"nasr street","line2":"","city":"cairo","country":"TN","postal_code":"1177","state":"cairo"}},"payment_method":"pm_1SVpQ5LAubgjStJ9VmbZNvm2","capture_method":"automatic","mandate_data":{"customer_acceptance":{"type":"online","online":{"ip_address":"::1","user_agent":"WooCommerce Stripe Gateway10.1.0; http://localhost"}}},"amount":1200000,"confirm":"true","currency":"egp","customer":"cus_TSkuoMM7ukxSS6","description":"shehab - Order 154","metadata":{"customer_name":"shehab ahmed","customer_email":"shehab200088111@gmail.com","site_url":"http://localhost","order_id":"154","order_key":"wc_order_4S35ilpyzH8nn","payment_type":"single","signature":"154:093d5613406942e6b1b7798c5b2f5ab2","tax_amount":0,"is_legacy_checkout_enabled":"no","is_oc_enabled":"no","pmc_enabled":"yes"},"payment_method_types":["card","link"]}}
+2025-11-21T08:10:20+00:00 DEBUG Stripe API response: POST payment_intents CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1","stripe_request_id":"req_rZVWunXUEn4WRb","response":{"id":"pi_3SVpQ7LAubgjStJ90xgws6gQ","object":"payment_intent","amount":1200000,"amount_capturable":0,"amount_details":{"tip":{}},"amount_received":1200000,"application":"ca_BC3QunyBFJIQULdxege9Gyg8WjKI1vXD","application_fee_amount":null,"automatic_payment_methods":null,"canceled_at":null,"cancellation_reason":null,"capture_method":"automatic","client_secret":"pi_3SVpQ7LAubgjStJ90xgws6gQ_secret_kQJb8pj1UNZ0im3k9VquB7jqG","confirmation_method":"automatic","created":1763712619,"currency":"egp","customer":"cus_TSkuoMM7ukxSS6","description":"shehab - Order 154","excluded_payment_method_types":null,"invoice":null,"last_payment_error":null,"latest_charge":"ch_3SVpQ7LAubgjStJ90ayKSz7v","level3":null,"livemode":false,"metadata":{"customer_email":"shehab200088111@gmail.com","customer_name":"shehab ahmed","is_legacy_checkout_enabled":"no","is_oc_enabled":"no","order_id":"154","order_key":"wc_order_4S35ilpyzH8nn","payment_type":"single","pmc_enabled":"yes","signature":"154:093d5613406942e6b1b7798c5b2f5ab2","site_url":"http://localhost","tax_amount":"0"},"next_action":null,"on_behalf_of":null,"payment_method":"pm_1SVpQ5LAubgjStJ9VmbZNvm2","payment_method_configuration_details":null,"payment_method_options":{"card":{"installments":null,"mandate_options":null,"network":null,"request_three_d_secure":"automatic"},"link":{"persistent_token":null}},"payment_method_types":["card","link"],"processing":null,"receipt_email":null,"review":null,"setup_future_usage":null,"shipping":{"address":{"city":"cairo","country":"TN","line1":"nasr street","line2":"","postal_code":"1177","state":"cairo"},"carrier":null,"name":"shehab ahmed","phone":null,"tracking_number":null},"source":null,"statement_descriptor":null,"statement_descriptor_suffix":null,"status":"succeeded","transfer_data":null,"transfer_group":null}}
+2025-11-21T08:10:20+00:00 DEBUG Stripe API request: GET charges/ch_3SVpQ7LAubgjStJ90ayKSz7v CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1","request":[]}
+2025-11-21T08:10:21+00:00 DEBUG Stripe API response: GET charges/ch_3SVpQ7LAubgjStJ90ayKSz7v CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1","stripe_request_id":"req_n3SNlb8xLld4rg","response":{"id":"ch_3SVpQ7LAubgjStJ90ayKSz7v","object":"charge","amount":1200000,"amount_captured":1200000,"amount_refunded":0,"application":"ca_BC3QunyBFJIQULdxege9Gyg8WjKI1vXD","application_fee":null,"application_fee_amount":null,"balance_transaction":"txn_3SVpQ7LAubgjStJ900d0BA96","billing_details":{"address":{"city":"cairo","country":"TN","line1":"nasr street","line2":"","postal_code":"1177","state":"cairo"},"email":"shehab200088111@gmail.com","name":"shehab ahmed","phone":"01023323888","tax_id":null},"calculated_statement_descriptor":"WOOCOMMERCE","captured":true,"created":1763712620,"currency":"egp","customer":"cus_TSkuoMM7ukxSS6","description":"shehab - Order 154","destination":null,"dispute":null,"disputed":false,"failure_balance_transaction":null,"failure_code":null,"failure_message":null,"fraud_details":{},"invoice":null,"livemode":false,"metadata":{"customer_email":"shehab200088111@gmail.com","customer_name":"shehab ahmed","is_legacy_checkout_enabled":"no","is_oc_enabled":"no","order_id":"154","order_key":"wc_order_4S35ilpyzH8nn","payment_type":"single","pmc_enabled":"yes","signature":"154:093d5613406942e6b1b7798c5b2f5ab2","site_url":"http://localhost","tax_amount":"0"},"on_behalf_of":null,"order":null,"outcome":{"advice_code":null,"network_advice_code":null,"network_decline_code":null,"network_status":"approved_by_network","reason":null,"risk_level":"normal","risk_score":13,"seller_message":"Payment complete.","type":"authorized"},"paid":true,"payment_intent":"pi_3SVpQ7LAubgjStJ90xgws6gQ","payment_method":"pm_1SVpQ5LAubgjStJ9VmbZNvm2","payment_method_details":{"card":{"amount_authorized":1200000,"authorization_code":"501722","brand":"visa","checks":{"address_line1_check":"pass","address_postal_code_check":"pass","cvc_check":"pass"},"country":"US","exp_month":12,"exp_year":2029,"extended_authorization":{"status":"disabled"},"fingerprint":"MIWqR4mqZ3SOrQyf","funding":"credit","incremental_authorization":{"status":"unavailable"},"installments":null,"last4":"4242","mandate":null,"multicapture":{"status":"unavailable"},"network":"visa","network_token":{"used":false},"network_transaction_id":"996811466111856","overcapture":{"maximum_amount_capturable":1200000,"status":"unavailable"},"regulated_status":"unregulated","three_d_secure":null,"wallet":null},"type":"card"},"radar_options":{},"receipt_email":null,"receipt_number":null,"receipt_url":"https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xU1ZwQlhMQXViZ2pTdEo5KO28gMkGMgalW793Vj46LBbGbX_NRx8J6SR6YrqLrdpF4e4Rq29y9EyWScbxyRB4kWvGFmH3gPAgO4Gl","refunded":false,"review":null,"shipping":{"address":{"city":"cairo","country":"TN","line1":"nasr street","line2":"","postal_code":"1177","state":"cairo"},"carrier":null,"name":"shehab ahmed","phone":null,"tracking_number":null},"source":null,"source_transfer":null,"statement_descriptor":null,"statement_descriptor_suffix":null,"status":"succeeded","transfer_data":null,"transfer_group":null}}
+2025-11-21T08:10:21+00:00 DEBUG Stripe API request: GET charges/ch_3SVpQ7LAubgjStJ90ayKSz7v CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1","request":[]}
+2025-11-21T08:10:22+00:00 DEBUG Stripe API response: GET charges/ch_3SVpQ7LAubgjStJ90ayKSz7v CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1","stripe_request_id":"req_RieiVDRRZi0BMM","response":{"id":"ch_3SVpQ7LAubgjStJ90ayKSz7v","object":"charge","amount":1200000,"amount_captured":1200000,"amount_refunded":0,"application":"ca_BC3QunyBFJIQULdxege9Gyg8WjKI1vXD","application_fee":null,"application_fee_amount":null,"balance_transaction":"txn_3SVpQ7LAubgjStJ900d0BA96","billing_details":{"address":{"city":"cairo","country":"TN","line1":"nasr street","line2":"","postal_code":"1177","state":"cairo"},"email":"shehab200088111@gmail.com","name":"shehab ahmed","phone":"01023323888","tax_id":null},"calculated_statement_descriptor":"WOOCOMMERCE","captured":true,"created":1763712620,"currency":"egp","customer":"cus_TSkuoMM7ukxSS6","description":"shehab - Order 154","destination":null,"dispute":null,"disputed":false,"failure_balance_transaction":null,"failure_code":null,"failure_message":null,"fraud_details":{},"invoice":null,"livemode":false,"metadata":{"customer_email":"shehab200088111@gmail.com","customer_name":"shehab ahmed","is_legacy_checkout_enabled":"no","is_oc_enabled":"no","order_id":"154","order_key":"wc_order_4S35ilpyzH8nn","payment_type":"single","pmc_enabled":"yes","signature":"154:093d5613406942e6b1b7798c5b2f5ab2","site_url":"http://localhost","tax_amount":"0"},"on_behalf_of":null,"order":null,"outcome":{"advice_code":null,"network_advice_code":null,"network_decline_code":null,"network_status":"approved_by_network","reason":null,"risk_level":"normal","risk_score":13,"seller_message":"Payment complete.","type":"authorized"},"paid":true,"payment_intent":"pi_3SVpQ7LAubgjStJ90xgws6gQ","payment_method":"pm_1SVpQ5LAubgjStJ9VmbZNvm2","payment_method_details":{"card":{"amount_authorized":1200000,"authorization_code":"501722","brand":"visa","checks":{"address_line1_check":"pass","address_postal_code_check":"pass","cvc_check":"pass"},"country":"US","exp_month":12,"exp_year":2029,"extended_authorization":{"status":"disabled"},"fingerprint":"MIWqR4mqZ3SOrQyf","funding":"credit","incremental_authorization":{"status":"unavailable"},"installments":null,"last4":"4242","mandate":null,"multicapture":{"status":"unavailable"},"network":"visa","network_token":{"used":false},"network_transaction_id":"996811466111856","overcapture":{"maximum_amount_capturable":1200000,"status":"unavailable"},"regulated_status":"unregulated","three_d_secure":null,"wallet":null},"type":"card"},"radar_options":{},"receipt_email":null,"receipt_number":null,"receipt_url":"https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xU1ZwQlhMQXViZ2pTdEo5KO68gMkGMgYlSd6YBUg6LBb1E2-e1KIGaJj7YAXzB4UA8U9qr2QB7Vm4TqZFEM5nubJkmRdZ-o_PrPXc","refunded":false,"review":null,"shipping":{"address":{"city":"cairo","country":"TN","line1":"nasr street","line2":"","postal_code":"1177","state":"cairo"},"carrier":null,"name":"shehab ahmed","phone":null,"tracking_number":null},"source":null,"source_transfer":null,"statement_descriptor":null,"statement_descriptor_suffix":null,"status":"succeeded","transfer_data":null,"transfer_group":null}}
+2025-11-21T08:10:22+00:00 DEBUG 
+====Stripe Version: 10.1.0====
+====Stripe Plugin API Version: 2024-06-20====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3SVpQ7LAubgjStJ90ayKSz7v
+    [object] => charge
+    [amount] => 1200000
+    [amount_captured] => 1200000
+    [amount_refunded] => 0
+    [application] => ca_BC3QunyBFJIQULdxege9Gyg8WjKI1vXD
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3SVpQ7LAubgjStJ900d0BA96
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => cairo
+                    [country] => TN
+                    [line1] => nasr street
+                    [line2] => 
+                    [postal_code] => 1177
+                    [state] => cairo
+                )
+
+            [email] => shehab200088111@gmail.com
+            [name] => shehab ahmed
+            [phone] => 01023323888
+            [tax_id] => 
+        )
+
+    [calculated_statement_descriptor] => WOOCOMMERCE
+    [captured] => 1
+    [created] => 1763712620
+    [currency] => egp
+    [customer] => cus_TSkuoMM7ukxSS6
+    [description] => shehab - Order 154
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_email] => shehab200088111@gmail.com
+            [customer_name] => shehab ahmed
+            [is_legacy_checkout_enabled] => no
+            [is_oc_enabled] => no
+            [order_id] => 154
+            [order_key] => wc_order_4S35ilpyzH8nn
+            [payment_type] => single
+            [pmc_enabled] => yes
+            [signature] => 154:093d5613406942e6b1b7798c5b2f5ab2
+            [site_url] => http://localhost
+            [tax_amount] => 0
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [advice_code] => 
+            [network_advice_code] => 
+            [network_decline_code] => 
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 13
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3SVpQ7LAubgjStJ90xgws6gQ
+    [payment_method] => pm_1SVpQ5LAubgjStJ9VmbZNvm2
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [amount_authorized] => 1200000
+                    [authorization_code] => 501722
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 12
+                    [exp_year] => 2029
+                    [extended_authorization] => stdClass Object
+                        (
+                            [status] => disabled
+                        )
+
+                    [fingerprint] => MIWqR4mqZ3SOrQyf
+                    [funding] => credit
+                    [incremental_authorization] => stdClass Object
+                        (
+                            [status] => unavailable
+                        )
+
+                    [installments] => 
+                    [last4] => 4242
+                    [mandate] => 
+                    [multicapture] => stdClass Object
+                        (
+                            [status] => unavailable
+                        )
+
+                    [network] => visa
+                    [network_token] => stdClass Object
+                        (
+                            [used] => 
+                        )
+
+                    [network_transaction_id] => 996811466111856
+                    [overcapture] => stdClass Object
+                        (
+                            [maximum_amount_capturable] => 1200000
+                            [status] => unavailable
+                        )
+
+                    [regulated_status] => unregulated
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [radar_options] => stdClass Object
+        (
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xU1ZwQlhMQXViZ2pTdEo5KO68gMkGMgYlSd6YBUg6LBb1E2-e1KIGaJj7YAXzB4UA8U9qr2QB7Vm4TqZFEM5nubJkmRdZ-o_PrPXc
+    [refunded] => 
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => cairo
+                    [country] => TN
+                    [line1] => nasr street
+                    [line2] => 
+                    [postal_code] => 1177
+                    [state] => cairo
+                )
+
+            [carrier] => 
+            [name] => shehab ahmed
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => 
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+2025-11-21T08:10:22+00:00 DEBUG Stripe API request: GET balance/history/txn_3SVpQ7LAubgjStJ900d0BA96 CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1"}
+2025-11-21T08:10:22+00:00 DEBUG Stripe API response: GET balance/history/txn_3SVpQ7LAubgjStJ900d0BA96 CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1","stripe_request_id":"req_EtKcNRAZdvfYYB","response":{"id":"txn_3SVpQ7LAubgjStJ900d0BA96","object":"balance_transaction","amount":25036,"available_on":1764288000,"balance_type":"payments","created":1763712620,"currency":"usd","description":"shehab - Order 154","exchange_rate":0.0208634,"fee":756,"fee_details":[{"amount":756,"application":null,"currency":"usd","description":"Stripe processing fees","type":"stripe_fee"}],"net":24280,"reporting_category":"charge","source":"ch_3SVpQ7LAubgjStJ90ayKSz7v","status":"pending","type":"charge"}}
+2025-11-21T08:21:32+00:00 DEBUG Stripe API request: GET payment_method_configurations?limit=100 CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1"}
+2025-11-21T08:21:33+00:00 DEBUG Stripe API response: GET payment_method_configurations?limit=100 CONTEXT: {"stripe_version":"10.1.0","stripe_api_version":"2024-06-20","stripe_api_key":"sk_test_...UrcHC1","stripe_request_id":"req_N4PDKzOe4W99tk","response":{"object":"list","data":[{"id":"pmc_1SVpBdLAubgjStJ9GehLgddd","object":"payment_method_configuration","acss_debit":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"active":true,"affirm":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"afterpay_clearpay":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"alipay":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"amazon_pay":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"apple_pay":{"available":true,"display_preference":{"overridable":true,"preference":"on","value":"on"}},"application":"ca_BC3QunyBFJIQULdxege9Gyg8WjKI1vXD","bacs_debit":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"bancontact":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"blik":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"card":{"available":true,"display_preference":{"overridable":true,"preference":"on","value":"on"}},"cartes_bancaires":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"cashapp":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"crypto":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"customer_balance":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"eps":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"giropay":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"google_pay":{"available":true,"display_preference":{"overridable":true,"preference":"on","value":"on"}},"ideal":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"is_default":true,"kakao_pay":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"klarna":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"kr_card":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"link":{"available":true,"display_preference":{"overridable":true,"preference":"on","value":"on"}},"livemode":false,"mb_way":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"multibanco":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"name":"Default","naver_pay":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"p24":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"parent":"pmc_1LEKjBGX8lmJQndTBOzjqxSa","payco":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"pix":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"samsung_pay":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"sepa_debit":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"sofort":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"us_bank_account":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"wechat_pay":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}},"zip":{"available":false,"display_preference":{"overridable":true,"preference":"off","value":"off"}}},{"id":"pmc_1SVpBdLAubgjStJ9T0igG56g","object":"payment_method_configuration","acss_debit":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"active":true,"affirm":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"afterpay_clearpay":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"alipay":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"amazon_pay":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"apple_pay":{"available":true,"display_preference":{"overridable":null,"preference":"on","value":"on"}},"application":null,"bacs_debit":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"bancontact":{"available":true,"display_preference":{"overridable":null,"preference":"on","value":"on"}},"blik":{"available":true,"display_preference":{"overridable":null,"preference":"on","value":"on"}},"card":{"available":true,"display_preference":{"overridable":null,"preference":"on","value":"on"}},"cartes_bancaires":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"cashapp":{"available":true,"display_preference":{"overridable":null,"preference":"on","value":"on"}},"crypto":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"customer_balance":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"eps":{"available":true,"display_preference":{"overridable":null,"preference":"on","value":"on"}},"giropay":{"available":true,"display_preference":{"overridable":null,"preference":"on","value":"on"}},"google_pay":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"ideal":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"is_default":true,"kakao_pay":{"available":true,"display_preference":{"overridable":null,"preference":"on","value":"on"}},"klarna":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"kr_card":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"link":{"available":true,"display_preference":{"overridable":null,"preference":"on","value":"on"}},"livemode":false,"mb_way":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"multibanco":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"name":"Default","naver_pay":{"available":true,"display_preference":{"overridable":null,"preference":"on","value":"on"}},"p24":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"parent":null,"payco":{"available":true,"display_preference":{"overridable":null,"preference":"on","value":"on"}},"pix":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"samsung_pay":{"available":true,"display_preference":{"overridable":null,"preference":"on","value":"on"}},"sepa_debit":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"sofort":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"us_bank_account":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"wechat_pay":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}},"zip":{"available":false,"display_preference":{"overridable":null,"preference":"off","value":"off"}}}],"has_more":false,"url":"/v1/payment_method_configurations"}}
